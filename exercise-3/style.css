@@ -41,6 +41,33 @@ nav{
   border: 1px solid gray;
 }
 
+/*Exercise 3 */
+
+#about {
+border: 1px solid green;
+}
+.highlight {
+  background-color: yellow;
+}
+#main p {
+  margin-left: 30px;
+}
+blockquote {
+  background-image: url(http://bit.ly/1IlHeMx);
+}
+nav ul {
+color: blue;
+}
+
+img {
+  float: left;
+  clear: both;
+}
+
+img.image-2 {
+  float: right; 
+  clear: both;
+}
 
 /*******************************************************************************
 
