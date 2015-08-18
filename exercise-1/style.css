@@ -15,6 +15,13 @@ Named Colors: http://bit.ly/1g8MdPc
 
 ********************************************************************************
 */
-
-
-
+p {
+    color: green;
+}
+h1 {text-align: center;}
+body {background: purple;
+    font-family: "Helevetica Neue", "Open Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+}
