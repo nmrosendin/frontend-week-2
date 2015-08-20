@@ -6,12 +6,62 @@
   </head>
   <body class="container">
     <h1> Best Form Ever</h1>
-
-    <!--
-
-      Form goes here!
-
-    -->
-
+    <form 
+      action="http://requestb.in/1jxk3sy1"
+      method="POST">
+    <div>
+      <label>
+        <input name="name" type="text" value="name"></label>
+      <label>
+        <input name="email" type="text" value="email"></label>
+      <label>
+        <input name="password" type="password" value="passowrd"></label>
+      <label>
+        <input name="password confirm" type="password" value="password"></label>
+    </div>
+    <div>
+        <select name="favorite animals">
+          <option value="" disabled selected>Please Select</option>
+          <option value="cat">Cat</option>
+          <option value="dog">Dog</option>
+          <option value="elephant">Elephant</option>
+          <option value="tiger">Tiger</option>
+          <option value="zebra">Zebra</option>
+    </div>
+    <div class="intro">
+      <textarea name="description">Introduce yourself!</textarea>
+    </div>
+    <div>
+      <label>
+        <input name="blue" type="radio" value="blue">Blue</label>
+      <label>
+        <input name="green" type="radio" value="green">Green</label>
+      <label>
+        <input name="pink" type="radio" value="pink">Pink</label>
+      <label>
+        <input name="purple" type="radio" value="purple">Purple</label>
+      <label>
+        <input name="yellow" type="radio" value="yellow">Yellow</label>
+    </div>
+    <div>
+      <label>
+        <input name="cookies" type="checkbox" value="1">Cookies</label>
+      <label>
+        <input name="pizza" type="checkbox" value="2">Pizza</label>
+      <label>
+        <input name="cheeseburger" type="checkbox" value="1">Cheeseburger</label>
+      <label>
+        <input name="french fries" type="checkbox" value="1">French Fries</label>
+      <label>
+        <input name="spaghetti" type="checkbox" value="1">Spaghetti</label>
+    </div>
+    <div>
+      <label>
+        <input name="submit" type="submit" value="Submit">
+      </label>
+      <label>
+        <input name="submit" type="submit" value="Form Reset">
+      </label>
+    </div>
   </body>
 </html>
