@@ -11,6 +11,11 @@ label {
   width: 100%;
 }
 
-div .intro{
-    width: 1000px;
+form {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+    width: 500px;
+    background-color: gray;
+    padding: 15px;
 }
